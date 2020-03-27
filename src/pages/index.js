@@ -15,7 +15,9 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `developer`, `rails`, `ruby`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+          <img style={{ margin: 0,
+                        transform: `rotate(90deg)`
+                     }} src="./assets/splash.jpg" alt="Gatsby Scene" />
         <h1>
           Hi, I'm Julian {" "}
           <span role="img" aria-label="heart emoji">
