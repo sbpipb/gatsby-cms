@@ -28,17 +28,15 @@ function Bio() {
                 marginBottom: 0,
                 minWidth: 50,
                 borderRadius: `100%`,
+                transform: `rotate(90deg)`,
               }}
               imgStyle={{
                 borderRadius: `50%`,
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Manila
+              Written by <strong>{author}</strong>
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Tweets a lot
-              </a>
             </p>
           </Container>
         )
