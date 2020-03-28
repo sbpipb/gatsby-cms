@@ -16,7 +16,6 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
     const slug = this.props.path
-    console.log(process.env, this.props.path)
 
     const disqusConfig = {
       shortname: process.env.GATSBY_DISQUS_NAME,
