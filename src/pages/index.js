@@ -13,20 +13,20 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `developer`, `rails`, `ruby`]}
+          keywords={[`blog`, `developer`, `rails`, `ruby`, `web`]}
         />
-          <img style={{ margin: 0,
-                        transform: `rotate(90deg)`
-                     }} src="./assets/splash.jpg" alt="Gatsby Scene" />
+        <img
+          style={{ margin: 0, transform: `rotate(90deg)` }}
+          src="./assets/splash.jpg"
+          alt="celine ad"
+        />
         <h1>
-          Hi, I'm Julian {" "}
-          <span role="img" aria-label="heart emoji">
-            👋
-          </span>
+          Hi, I'm Julian
+          <span role="img" aria-label="heart emoji"></span>
         </h1>
-        <p>This is my new blog. I started this to learn new stuff.</p>
+        <p>I started this blog to learn and practice new technologies.</p>
         <Link to="/blog/">
-          <Button marginTop="35px">See blog</Button>
+          <Button marginTop="35px">See latest post</Button>
         </Link>
       </Layout>
     )
