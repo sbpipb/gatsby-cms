@@ -16,13 +16,15 @@ class IndexPage extends React.Component {
           keywords={[`blog`, `developer`, `rails`, `ruby`, `web`]}
         />
         <img
-          style={{ margin: 0, transform: `rotate(90deg)` }}
+          style={{ margin: 0 }}
           src="./assets/splash.jpg"
           alt="celine ad"
         />
         <h1>
-          Hi, I'm Julian
-          <span role="img" aria-label="heart emoji"></span>
+          Hi, I'm Julian {" "}
+          <span role="img" aria-label="heart emoji">
+            👋
+          </span>
         </h1>
         <p>I started this blog to learn and practice new technologies.</p>
         <Link to="/blog/">
