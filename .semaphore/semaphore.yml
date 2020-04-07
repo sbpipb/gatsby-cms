@@ -1,5 +1,5 @@
 version: v1.0
-name: Node JS
+name: blog
 agent:
   machine:
     type: e1-standard-2
@@ -7,10 +7,31 @@ agent:
 blocks:
   - name: Install dependencies
     task:
+      env_vars:
+        - name: NODE_ENV
+          value: test
+      prologue:
+        commands:
+          - checkout
       jobs:
-        - name: yarn install
+        - name: Yarn
           commands:
-            - sem-version node 8
-            - checkout
-            - yarn install
-            - yarn test
+            - sem-version node 12
+            - yarn --pure-lockfile
+  - name: Linters
+    task:
+      env_vars:
+        - name: NODE_ENV
+          value: test
+      prologue:
+        commands:
+          - checkout
+          - sem-version node 12
+          - cache restore node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock)
+      jobs:
+        - name: Eslint
+          commands:
+            - 'yarn eslint:check'
+        - name: Prettier
+          commands:
+            - 'yarn prettier:check'
