@@ -10,15 +10,6 @@ class About extends React.Component {
     const { data } = this.props
     const siteTitle = "About Me"
 
-    const accounts = [
-      { name: "GitHub", link: "https://github.com/sbpipb", icon: "icon" },
-      {
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/julianmacmang/",
-        icon: "icon",
-      },
-    ]
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Julian Macmang | About Page" />
@@ -52,25 +43,15 @@ class About extends React.Component {
         </div>
 
         <h3 style={{}}>Let's get connected!</h3>
-
         <div style={{ margin: "20px 0 40px" }}>
-          {accounts.map(node => {
-            const title = node.name
-
-            return (
-              <div key={node.name.slug}>
-                <h4
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <a href={node.link} target="_new">
-                    {title}
-                  </a>
-                </h4>
-              </div>
-            )
-          })}
+          <p>
+            Check out my profile on{" "}
+            <a href="https://www.linkedin.com/in/julianmacmang/">LinkedIn</a>
+            And some of my projects on{" "}
+            <a href="https://github.com/sbpipb" target="_new">
+              Github
+            </a>
+          </p>
         </div>
         <Link to="/">
           <Button marginTop="85px">Go Home</Button>
