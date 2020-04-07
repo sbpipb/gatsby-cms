@@ -1,23 +1,22 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Button from "../components/button"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm } from '../utils/typography'
+import Button from '../components/button'
 
 class Blog extends React.Component {
   render() {
     const { data } = this.props
     const posts = data.allMdx.edges
 
-    const siteTitle = "Blog"
+    const siteTitle = 'Blog'
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Julian Macmang | Blog" />
+        <SEO title='Julian Macmang | Blog' />
 
-        <div style={{ margin: "20px 0 40px" }}>
-
+        <div style={{ margin: '20px 0 40px' }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -44,8 +43,8 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
+        <Link to='/'>
+          <Button marginTop='85px'>Go Home</Button>
         </Link>
       </Layout>
     )

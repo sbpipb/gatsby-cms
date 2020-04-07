@@ -6,7 +6,8 @@ description: >-
   The state of coffee bean roasters / sellers during the Manila NCOV quarantine
   period
 ---
-![brew-setup](/assets/commune.jpg "My brewing setup")
+
+![brew-setup](/assets/commune.jpg 'My brewing setup')
 
 Manila is on lockdown, which means, a lot of businesses are closing down or are working in skeleton workforce. During this period, it's important to have your caffeine supplies filled and ready.
 
