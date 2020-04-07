@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
+// import { rhythm } from '../utils/typography'
 import Button from '../components/button'
 
 class About extends React.Component {
   render() {
-    const { data } = this.props
+    // const { data } = this.props
     const siteTitle = 'About Me'
 
     return (
@@ -16,18 +16,18 @@ class About extends React.Component {
 
         <div style={{ margin: '20px 0 40px' }}>
           <p>
-            I'm Julian Macmang, a <strong>web-developer</strong> in Manila.
+            I&apos;m Julian Macmang, a <strong>web-developer</strong> in Manila.
           </p>
           <p>
-            I'm currently working with{' '}
+            I&apos;m currently working with{' '}
             <a href='https://www.mashupgarage.com/'>Mashup Garage</a> as a{' '}
             <strong>Software Developer</strong>.
           </p>
-          I'm fond of coding in <strong>Ruby</strong>.
+          I&apos;m fond of coding in <strong>Ruby</strong>.
         </div>
 
         <div style={{ marginBottom: '16px' }}>
-          As a Senior Software Engineer, I've built and designed
+          As a Senior Software Engineer, I&apos;ve built and designed
           web-applications for a wide range of companies across different
           industries in E-commerce, fintech, advertising, and technology since
           2011. I specialize mostly on backend development, but also dabbles in
@@ -41,11 +41,11 @@ class About extends React.Component {
         </div>
 
         <div style={{ marginBottom: '16px' }}>
-          Outside of work, I'm also a self-taught home brewer, and I love
+          Outside of work, I&apos;m also a self-taught home brewer, and I love
           specialty coffee.
         </div>
 
-        <h3 style={{}}>Let's get connected!</h3>
+        <h3 style={{}}>Let&apos;s get connected!</h3>
         <div style={{ margin: '20px 0 40px' }}>
           <p>
             Check out my profile on{' '}
