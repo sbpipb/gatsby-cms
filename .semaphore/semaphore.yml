@@ -4,47 +4,17 @@ agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
-
 blocks:
   - name: Install dependencies
     task:
       env_vars:
         - name: NODE_ENV
           value: test
-
       prologue:
         commands:
           - checkout
-
       jobs:
         - name: Yarn
           commands:
             - sem-version node 12
             - yarn --pure-lockfile
-
-      epilogue:
-        commands:
-          - cache delete node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock)
-
-          - cache store node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock) node_modules
-
-  - name: Linters
-    task:
-      env_vars:
-        - name: NODE_ENV
-          value: test
-
-      prologue:
-        commands:
-          - checkout
-          - sem-version node 12
-          - cache restore node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock)
-
-      jobs:
-        - name: Eslint
-          commands:
-            - yarn eslint:check
-
-        - name: Prettier
-          commands:
-            - yarn prettier:check
