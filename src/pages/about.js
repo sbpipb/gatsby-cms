@@ -19,10 +19,11 @@ class About extends React.Component {
             I'm Julian Macmang, a <strong>web-developer</strong> in Manila.
           </p>
           <p>
-            I'm currently working with <span>Mashup Garage</span> as a Software
-            Developer.
+            I'm currently working with{" "}
+            <a href="https://www.mashupgarage.com/">Mashup Garage</a> as a{" "}
+            <strong>Software Developer</strong>.
           </p>
-          I'm fond of coding in Ruby.
+          I'm fond of coding in <strong>Ruby</strong>.
         </div>
 
         <div style={{ marginBottom: "16px" }}>
@@ -34,7 +35,7 @@ class About extends React.Component {
 
         <div style={{ marginBottom: "16px" }}>
           I enjoy learning new things. Lately, I have been specializing on{" "}
-          <strong>DEV-OPS</strong> and <strong>system architecture</strong>. I
+          <strong>DevOps</strong> and <strong>system architecture</strong>. I
           built this website primarily to improve my skills on ReactJS.
         </div>
 
@@ -46,7 +47,12 @@ class About extends React.Component {
         <div style={{ margin: "20px 0 40px" }}>
           <p>
             Check out my profile on{" "}
-            <a href="https://www.linkedin.com/in/julianmacmang/">LinkedIn</a>
+            <a
+              href="https://www.linkedin.com/in/julianmacmang/?referrer=https://blog.jvlivn.com"
+              target="_new"
+            >
+              LinkedIn
+            </a>{" "}
             and some of my projects on{" "}
             <a href="https://github.com/sbpipb" target="_new">
               Github
