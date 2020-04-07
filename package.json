@@ -10,6 +10,9 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
     "babel-plugin-styled-components": "^1.10.0",
     "disqus-react": "^1.0.8",
     "gatsby": "^2.3.25",
@@ -44,7 +47,8 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "eslint-config-prettier": "^6.10.1",
+    "prettier": "^2.0.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -62,6 +66,12 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "eslint:check": "eslint '*.js' 'src/**/*.js'",
+    "eslint:fix": "eslint '*.js' 'src/**/*.js' --fix",
+    "prettier:check": "prettier '*.{js,ts,tsx}' 'src/**/*.{js,ts,tsx}' 'content/**/*.md' --list-different",
+    "prettier:fix": "  prettier '*.{js,ts,tsx}' 'src/**/*.{js,ts,tsx}' 'content/**/*.md' --write",
+    "lint:check": "yarn eslint:check & yarn prettier:check",
+    "lint:fix": "yarn eslint:fix & yarn prettier:fix"
   }
 }
