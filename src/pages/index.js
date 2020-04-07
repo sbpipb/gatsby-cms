@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
         />
         <img style={{ margin: 0 }} src='./assets/splash.jpg' alt='celine ad' />
         <h1>
-          Hi, I'm Julian{' '}
+          Hi, I&apos;m Julian{' '}
           <span role='img' aria-label='heart emoji'>
             👋
           </span>
