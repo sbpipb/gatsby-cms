@@ -27,20 +27,22 @@ class About extends React.Component {
         </div>
 
         <div style={{ marginBottom: "16px" }}>
-          As a Senior Software Developer, I've built a lot of web-applications
-          for a lot of companies across different industries in E-commerce,
-          fintech, advertising and technology. I mostly specialize on
-          backend-development, but can also handle front-end development.
+          As a Senior Software Engineer, I've built and designed
+          web-applications for a wide range of companies across different
+          industries in E-commerce, fintech, advertising, and technology since
+          2011. I specialize mostly on backend development, but also dabbles in
+          frontend work.
         </div>
 
         <div style={{ marginBottom: "16px" }}>
-          I enjoy learning new things. Lately, I have been specializing on{" "}
-          <strong>DevOps</strong> and <strong>system architecture</strong>. I
-          built this website primarily to improve my skills on ReactJS.
+          I enjoy learning new things. Lately, I have been exploring{" "}
+          <strong>DevOps</strong>. I built this website primarily to improve my
+          <strong>ReactJS</strong> skills.
         </div>
 
         <div style={{ marginBottom: "16px" }}>
-          I'm a home brewer, and I love specialty coffee.
+          Outside of work, I'm also a self-taught home brewer, and I love
+          specialty coffee.
         </div>
 
         <h3 style={{}}>Let's get connected!</h3>
@@ -60,7 +62,7 @@ class About extends React.Component {
           </p>
         </div>
         <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
+          <Button marginTop="86px">Go Home</Button>
         </Link>
       </Layout>
     )
