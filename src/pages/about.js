@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -47,7 +47,7 @@ class About extends React.Component {
           <p>
             Check out my profile on{" "}
             <a href="https://www.linkedin.com/in/julianmacmang/">LinkedIn</a>
-            And some of my projects on{" "}
+            and some of my projects on{" "}
             <a href="https://github.com/sbpipb" target="_new">
               Github
             </a>
