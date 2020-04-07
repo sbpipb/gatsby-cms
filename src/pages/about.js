@@ -25,27 +25,26 @@ class About extends React.Component {
 
         <div style={{ margin: "20px 0 40px" }}>
           <p>
-            Hi! I'm Julian Macmang, a <strong>web-developer</strong> from
-            Manila.
+            I'm Julian Macmang, a <strong>web-developer</strong> in Manila.
           </p>
           <p>
-            I'm currently working at <span>Mashup Garage</span> as a Software
+            I'm currently working with <span>Mashup Garage</span> as a Software
             Developer.
           </p>
           I'm fond of coding in Ruby.
         </div>
 
         <div style={{ marginBottom: "16px" }}>
-          I've built a lot of web-applications for a lot of companies across
-          different industries in E-commerce, fintech, advertising and
-          technology. I mostly specialize on backend-development, but can also
-          handle front-end development.
+          As a Senior Software Developer, I've built a lot of web-applications
+          for a lot of companies across different industries in E-commerce,
+          fintech, advertising and technology. I mostly specialize on
+          backend-development, but can also handle front-end development.
         </div>
 
         <div style={{ marginBottom: "16px" }}>
-          I enjoy learning new things specializing on <strong>dev-ops</strong>{" "}
-          and <strong>system architecture</strong>. I built this website
-          primarily to improve my skills on ReactJS.
+          I enjoy learning new things. Lately, I have been specializing on{" "}
+          <strong>DEV-OPS</strong> and <strong>system architecture</strong>. I
+          built this website primarily to improve my skills on ReactJS.
         </div>
 
         <div style={{ marginBottom: "16px" }}>
