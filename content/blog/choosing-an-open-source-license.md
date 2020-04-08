@@ -6,4 +6,5 @@ description: >-
   Talks about the different types of licenses, and guidelines on figuring out
   which fits for your project.
 ---
+
 I stumbled upon this [website](https://choosealicense.com/) while I was trying to figure out how open source licenses work.
