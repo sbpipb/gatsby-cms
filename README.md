@@ -2,3 +2,4 @@
 
 Built using [Gatsby blog guide](https://github.com/thomaswang/gatsby-personal-starter-blog) and [this](https://www.gatsbyjs.org/tutorial/blog-netlify-cms-tutorial)
 
+![preview](screenshot.png)
