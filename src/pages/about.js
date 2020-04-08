@@ -16,14 +16,16 @@ class About extends React.Component {
 
         <div style={{ margin: '20px 0 40px' }}>
           <p>
-            I&apos;m Julian Macmang, a <strong>web-developer</strong> in Manila.
+            <i>Kamusta?</i> I&apos;m Julian Macmang, a{' '}
+            <strong>web developer</strong> based in{' '}
+            <strong>Manila, Philippines</strong>.
           </p>
           <p>
-            I&apos;m currently working with{' '}
+            I currently work with{' '}
             <a href='https://www.mashupgarage.com/'>Mashup Garage</a> as a{' '}
-            <strong>Software Developer</strong>.
+            <strong>Senior Software Developer</strong>.
           </p>
-          I&apos;m fond of coding in <strong>Ruby</strong>.
+          I love coding in <strong>Ruby</strong>.
         </div>
 
         <div style={{ marginBottom: '16px' }}>
@@ -35,34 +37,36 @@ class About extends React.Component {
         </div>
 
         <div style={{ marginBottom: '16px' }}>
-          I enjoy learning new things. Lately, I have been exploring{' '}
-          <strong>DevOps</strong>. I built this website primarily to improve my
-          <strong>ReactJS</strong> skills.
+          <p>
+            I take a pragmatic approach to learning new tech. Recently, I have
+            been specializing in <strong>DevOps</strong>.
+          </p>
         </div>
 
         <div style={{ marginBottom: '16px' }}>
-          Outside of work, I&apos;m also a self-taught home brewer, and I love
-          specialty coffee.
+          <p>
+            Also a self-taught home brewer passionate about specialty coffee.
+          </p>
         </div>
 
         <h3 style={{}}>Let&apos;s get connected!</h3>
         <div style={{ margin: '20px 0 40px' }}>
           <p>
-            Check out my profile on{' '}
+            Send me an invite on{' '}
             <a
               href='https://www.linkedin.com/in/julianmacmang/?referrer=https://blog.jvlivn.com'
               target='_new'
             >
               LinkedIn
             </a>{' '}
-            and some of my projects on{' '}
+            and checkout some of my projects on{' '}
             <a href='https://github.com/sbpipb' target='_new'>
               Github
             </a>
           </p>
         </div>
         <Link to='/'>
-          <Button marginTop='86px'>Go Home</Button>
+          <Button marginTop='86px'>Home</Button>
         </Link>
       </Layout>
     )
