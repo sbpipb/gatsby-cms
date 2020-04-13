@@ -8,11 +8,11 @@ I've been doing much frontend work lately, and it's a great opportunity for me t
 
 After searching through the net, I've found this [article](https://medium.com/@sergeybulavyk/mastering-your-fonts-in-gatsby-fbdf2782e083) to be the simplest and concise resource.
 
-
-
 Other references
 
 https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/
+
+https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/
 
 https://css-tricks.com/snippets/css/using-font-face/
 
