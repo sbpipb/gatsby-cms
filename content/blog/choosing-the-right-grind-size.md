@@ -1,7 +1,7 @@
 ---
 path: grind-size
 date: 2020-04-18T08:53:03.803Z
-title: Choosing the right grind size
+title: Brewing Coffee with the right grind size
 description: Importance of grind size in brewing coffee
 ---
 Coffee grind size is an important parameter in brewing, it could cause over extraction or under extraction. Grind size varies depending on your brewing method, and also taste. 
