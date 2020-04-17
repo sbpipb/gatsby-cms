@@ -16,4 +16,10 @@ __
 
 ![](/assets/size.png)
 
-_Here's the suggested grind size for my Porlex Mini._
+_Here's the suggested grind size for my_ [_Porlex Mini_](https://www.amazon.com/Porlex-Mini-Stainless-Coffee-Grinder/dp/B0044ZA066)_._
+
+
+
+
+
+I hope you find this helpful as well. Stay safe!
