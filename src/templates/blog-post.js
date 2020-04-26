@@ -8,26 +8,31 @@ import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+import ShareButton from '../components/ShareButton'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const { title, siteUrl } = this.props.data.site.siteMetadata
+
+    const { twitter } = this.props.data.site.siteMetadata.social
+
     const { previous, next } = this.props.pageContext
     const slug = this.props.path
 
     const disqusConfig = {
       shortname: process.env.GATSBY_DISQUS_NAME,
-      config: { identifier: slug, siteTitle },
+      config: { identifier: slug, title },
     }
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={title}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
+
         <p
           style={{
             ...scale(-1 / 5),
@@ -38,6 +43,13 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+
+        <ShareButton
+          twitterHandle={twitter}
+          url={siteUrl + slug}
+          title={post.frontmatter.title}
+        />
+
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
@@ -85,6 +97,10 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
+        social {
+          twitter
+        }
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
