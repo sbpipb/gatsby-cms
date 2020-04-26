@@ -23,7 +23,10 @@ class IndexPage extends React.Component {
           </span>
         </h1>
 
-        <p>I share my thoughts about technology in hopes that someone else might find it useful. I also write about coffee and my brewing experiences.</p>
+        <p>
+          I share my thoughts about technology in hopes that someone else might
+          find it useful. I also write about coffee and my brewing experiences.
+        </p>
 
         <Link to='/blog/'>
           <Button marginTop='35px'>See Blog</Button>
