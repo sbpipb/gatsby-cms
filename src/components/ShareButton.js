@@ -2,12 +2,8 @@ import React from 'react'
 import {
   FacebookShareButton,
   FacebookIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
   TwitterShareButton,
   TwitterIcon,
-  FacebookMessengerIcon,
-  FacebookMessengerShareButton,
 } from 'react-share'
 
 export const ShareButtons = ({
@@ -22,10 +18,6 @@ export const ShareButtons = ({
       <FacebookIcon size={fontSize} round='true' />
     </FacebookShareButton>
 
-    <FacebookMessengerShareButton url={url} style={{ marginRight: '8px' }}>
-      <FacebookMessengerIcon size={fontSize} round='true' />
-    </FacebookMessengerShareButton>
-
     <TwitterShareButton
       url={url}
       title={title}
@@ -35,10 +27,6 @@ export const ShareButtons = ({
     >
       <TwitterIcon size={fontSize} round='true' />
     </TwitterShareButton>
-
-    <LinkedinShareButton url={url} style={{ marginRight: '8px' }}>
-      <LinkedinIcon size={fontSize} round='true' />
-    </LinkedinShareButton>
   </div>
 )
 
