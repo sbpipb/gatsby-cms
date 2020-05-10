@@ -6,7 +6,7 @@ module.exports = {
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://blog.jvlivn.com/`,
     social: {
-      twitter: `MVCMVNG`,
+      twitter: `JulianMacmang`,
     },
   },
   plugins: [
