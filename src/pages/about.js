@@ -17,7 +17,7 @@ class About extends React.Component {
         <div style={{ margin: '20px 0 40px' }}>
           <p>
             <i>Kamusta?</i> I&apos;m Julian Macmang, a{' '}
-            <strong>web developer</strong> based in{' '}
+            <strong>software engineer</strong> based in{' '}
             <strong>Manila, Philippines</strong>.
           </p>
           <p>
@@ -57,9 +57,11 @@ class About extends React.Component {
               href='https://www.linkedin.com/in/julianmacmang/?referrer=https://blog.jvlivn.com'
               target='_new'
             >
-              LinkedIn
+              LinkedIn.
             </a>{' '}
-            and checkout some of my projects on{' '}
+          </p>
+          <p>
+            You can check out some of my projects on{' '}
             <a href='https://github.com/sbpipb' target='_new'>
               Github
             </a>
