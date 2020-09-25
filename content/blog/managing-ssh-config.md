@@ -4,9 +4,22 @@ date: 2020-09-25T18:14:37.951Z
 title: Managing SSH Config
 description: cheatsheet
 ---
+## Why do I need this?
+So you'd have an easy way of managing your SSH connections. 
+
+```
+# Instead of running
+ssh joserizal@staging.api.com
+
+# you can just run
+ssh staging
+```
+
+## Getting started
+Add this to your ssh config file, default path is `~/.ssh/config`
 
 
-## Configuration
+## Configuration file
 
 ```
 User andres.bonifacio
@@ -24,7 +37,7 @@ Host production?
 ```
 ssh staging-api
 ssh production9
-# connects to andres.bonifactio@production9.api.com
+# connects to andres.bonifacio@production9.api.com
 ```
 
 
