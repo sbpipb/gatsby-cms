@@ -20,12 +20,11 @@ class About extends React.Component {
             <strong>software engineer</strong> based in{' '}
             <strong>Manila, Philippines</strong>.
           </p>
+
           <p>
-            I currently work with{' '}
-            <a href='https://www.mashupgarage.com/'>Mashup Garage</a> as a{' '}
-            <strong>Senior Software Developer</strong>.
+            I'm technology agnostic, but I love coding in <strong>Ruby</strong>.
           </p>
-          I love coding in <strong>Ruby</strong>.
+
         </div>
 
         <div style={{ marginBottom: '16px' }}>
@@ -61,7 +60,7 @@ class About extends React.Component {
             </a>{' '}
           </p>
           <p>
-            You can check out some of my projects on{' '}
+            You can also find me on {' '}
             <a href='https://github.com/sbpipb' target='_new'>
               Github
             </a>
