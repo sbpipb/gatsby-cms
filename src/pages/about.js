@@ -22,7 +22,7 @@ class About extends React.Component {
           </p>
 
           <p>
-            I'm technology agnostic, but I love coding in <strong>Ruby</strong>.
+            I consider myself as tech agnostic, but I love coding in <strong>Ruby</strong>.
           </p>
 
         </div>
@@ -44,7 +44,7 @@ class About extends React.Component {
 
         <div style={{ marginBottom: '16px' }}>
           <p>
-            Also a self-taught home brewer passionate about specialty coffee.
+            When AFK, I usually spend my time cycling.
           </p>
         </div>
 
