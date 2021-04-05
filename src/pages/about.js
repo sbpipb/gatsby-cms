@@ -27,23 +27,26 @@ class About extends React.Component {
           </p>
         </div>
 
+        {/*
         <div style={{ marginBottom: '16px' }}>
           As a Senior Software Engineer, I&apos;ve built and designed
           web-applications for a wide range of companies across different
           industries in E-commerce, fintech, advertising, and technology since
-          2011. I specialize mostly on backend development, but also dabbles in
-          frontend work.
+          2011.
         </div>
+        */}
 
+        {/*
         <div style={{ marginBottom: '16px' }}>
           <p>
-            I take a pragmatic approach to learning new tech. Recently, I have
+          I take a pragmatic approach to learning new tech. Recently, I have
             been specializing in <strong>DevOps</strong>.
           </p>
         </div>
+        */}
 
         <div style={{ marginBottom: '16px' }}>
-          <p>When AFK, I usually spend my time cycling.</p>
+          <p>AFK, I spend a lot of time casually cycling.</p>
         </div>
 
         <h3 style={{}}>Let&apos;s get connected!</h3>
