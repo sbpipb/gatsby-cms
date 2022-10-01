@@ -28,6 +28,12 @@ class IndexPage extends React.Component {
           find it useful. I also write about coffee and my brewing experiences.
         </p>
 
+        <p>
+          Since the pandemic hit, I&apos;ve been cycling a lot. I journal about
+          my adventures in
+          <a href='https://www.strava.com/athletes/10568004'> Strava</a>!
+        </p>
+
         <Link to='/blog/'>
           <Button marginTop='35px'>See Blog</Button>
         </Link>
