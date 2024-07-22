@@ -51,7 +51,7 @@ class About extends React.Component {
           <p>
             Send me an invite on{' '}
             <a
-              href='https://www.linkedin.com/in/julianmacmang/?referrer=https://blog.jvlivn.com'
+              href='https://www.linkedin.com/in/julianmacmang/?referrer=https://julianmacmang.com'
               target='_new'
             >
               LinkedIn.
