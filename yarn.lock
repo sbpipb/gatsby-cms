@@ -4083,10 +4083,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
-  version "2.3.2"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
-  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+classnames@^2.2.5, classnames@^2.3.2:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
 clean-css@4.2.x:
   version "4.2.3"
@@ -5394,9 +5394,9 @@ direction@^0.1.5:
   integrity "sha1-zl15f5fib4vnvv9T99xA4cGp7Ew= sha512-HceXsAluGbXKCz2qCVbXFUH4Vn4eNMWxY5gzydMFMnS1zKSwvDASqLwcrYLIFDpwuZ63FUAqjDLEP1eicHt8DQ=="
 
 disqus-react@^1.0.9:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/disqus-react/-/disqus-react-1.1.3.tgz"
-  integrity sha512-DwKdmbHTMPyhBECBeRYAPNcIqZNKMvsRiyVdF89BdmFCbZpWb7+xMj/lvAuckBSx1ilOHpTKYYyW11uodaJ6ig==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/disqus-react/-/disqus-react-1.1.5.tgz#e844d040eed8f55467106e49d00e29d629e07043"
+  integrity sha512-9fdG5m6c3wJzlCDLaMheuUagMVj3s5qgUSXdekpCsvzYOKG21AiuOoqyDzA0oXrpPnYzgpnsvPYqZ+i0hJPGZw==
 
 dnd-core@^7.7.0:
   version "7.7.0"
@@ -9818,7 +9818,7 @@ jsonify@~0.0.0:
 
 jsonp@^0.2.1:
   version "0.2.1"
-  resolved "https://registry.npmjs.org/jsonp/-/jsonp-0.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/jsonp/-/jsonp-0.2.1.tgz#a65b4fa0f10bda719a05441ea7b94c55f3e15bae"
   integrity sha512-pfog5gdDxPdV4eP7Kg87M8/bHgshlZ5pybl+yKxAnCZ5O7lCIn7Ixydj03wOlnDQesky2BPyA91SQ+5Y/mNwzw==
   dependencies:
     debug "^2.1.3"
@@ -10920,7 +10920,7 @@ mozjpeg@^7.0.0:
 
 ms@2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==
 
 ms@2.1.1:
@@ -12898,9 +12898,9 @@ prettier-linter-helpers@^1.0.0:
     fast-diff "^1.1.2"
 
 prettier@^2.0.5:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz"
-  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -13553,11 +13553,11 @@ react-select@^2.4.2, react-select@^2.4.3:
     react-transition-group "^2.2.1"
 
 react-share@^4.2.0:
-  version "4.4.0"
-  resolved "https://registry.npmjs.org/react-share/-/react-share-4.4.0.tgz"
-  integrity sha512-POe8Ge/JT9Ew9iyW7CiYsCCWCb8uMJWqFl9S7W0fJ/oH5gBJNzukH0bL5vSr17KKG5h15d3GfKaoviI22BKeYA==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-share/-/react-share-4.4.1.tgz#4bfb0b512e26afedfea2fb66eb13c95c28fb216a"
+  integrity sha512-AJ9m9RiJssqvYg7MoJUc9J0D7b/liWrsfQ99ndKc5vJ4oVHHd4Fy87jBlKEQPibT40oYA3AQ/a9/oQY6/yaigw==
   dependencies:
-    classnames "^2.2.5"
+    classnames "^2.3.2"
     jsonp "^0.2.1"
 
 react-side-effect@^1.1.0:
@@ -17611,9 +17611,9 @@ yargs@^15.3.1:
     yargs-parser "^18.1.2"
 
 yarn@^1.22.21:
-  version "1.22.21"
-  resolved "https://registry.npmjs.org/yarn/-/yarn-1.22.21.tgz"
-  integrity sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg==
+  version "1.22.22"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.22.tgz#ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+  integrity sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg==
 
 yauzl@^2.4.2:
   version "2.10.0"
